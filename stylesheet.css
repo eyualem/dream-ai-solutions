@@ -2,15 +2,50 @@
     --background-color1: #1f3927;
 }
 
-@media (max-width: 2000px){
-    .welcome-text-div{
-        width: 400px;
-        margin-left: 9px;
-    } 
+@media (min-width: 1500px) and (max-width: 1800px){
+    .intro-image{
+        max-height: 250px;
+        max-width: 500px;
+    }
+
+    
+}
+
+@media (min-width: 1000px) and (max-width: 1500px){
+    .intro-image{
+        max-height: 200px;
+        max-width: 400px;
+    }
+    
+    .benefits-container{
+        max-width: 800px;
+    }
+
+    blockquote{
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #intro-section{
+        display: block;
+    }
 
     .intro-image{
-        width: 600px;
-        margin-right: 9px;
+        max-height: 200px;
+        max-width: 400px;
+    }
+    
+    .benefits-container{
+        max-width: 800px;
+    }
+
+    blockquote{
+        max-width: 800px;
+    }
+    
+    .contact-box{
+        max-width: 800px;
     }
 }
 
@@ -93,7 +128,7 @@ a:hover{
 }
 
 .welcome-text-div{
-    width: 400x;
+    width: 400px;
     /*margin-left: 350px;*/
     padding-bottom: 60px;
     margin-left: auto;

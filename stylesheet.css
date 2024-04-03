@@ -2,6 +2,18 @@
     --background-color1: #1f3927;
 }
 
+@media (max-width: 2000px){
+    .welcome-text-div{
+        width: 400px;
+        margin-left: 9px;
+    } 
+
+    .intro-image{
+        width: 600px;
+        margin-right: 9px;
+    }
+}
+
 html, body{
   font-family: 'Roboto', sans-serif;
   background-color: white;
@@ -82,8 +94,10 @@ a:hover{
 
 .welcome-text-div{
     width: 400x;
-    margin-left: 350px;
+    /*margin-left: 350px;*/
     padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: 80px;
 } 
 
 #intro-section h2{
@@ -124,8 +138,9 @@ a:hover{
 .intro-image{
     height: 300px;
     width: 600px;
-    margin-right: 300px;
-    
+    /*margin-right: 300px;*/
+    margin-right: auto;
+    margin-left: 80px;
 }
 
 #services-section{
